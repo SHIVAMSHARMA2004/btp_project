@@ -81,7 +81,7 @@ class _BluetoothScreenState extends State<BluetoothScreen> {
   }
 
   Future<void> assessThreat(String text) async {
-    const apiKey = open_api_key; // Replace with your API key
+    const apiKey = ""; 
     const endpoint = 'https://api.openai.com/v1/chat/completions';
 
     final response = await http.post(
